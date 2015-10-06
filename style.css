@@ -1,0 +1,177 @@
+body {
+	background: rgb(0, 180, 172) url(images/GProxpt.jpg) no-repeat;
+	background-size: cover;
+
+	-webkit-user-select: none;     
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+}
+.clear{
+	clear: both;
+}
+
+#wrap {
+	display: block;
+	width: 80%;
+	margin: 50px auto;
+	padding: 30px 10px;
+	background: rgba(87,92,103, .4);
+
+}
+.heading {
+	font:300 27px/26px 'Open Sans', sans-serif;
+	color:#fff;
+ 	padding: 0;
+    margin: 25px 0 25px 48px;
+
+}
+/*Calendar's styles*/
+#jcal-calendar-form {
+	display: block;
+	width: 350px;
+	float: left;
+	margin: 10px 0 10px 50px;
+}
+#jcal-calendar-form #jcal-date, #jcal-calendar-form input[type='text'] {
+	width: 200px;
+	height: 40px;
+	background: rgba(255,255,255,.75);
+	border:1px solid rgba(240,240,240,0.23);
+	border-radius: 0 5px 5px 0;
+	padding: 5px 10px;
+	color:#383838;
+	font:300 14px/15px 'Open Sans', sans-serif;
+	margin: 5px 15px 0 0;
+}
+#jcal-calendar-form input[type='text'] {
+	width: 180px;
+    height: 28px;
+    padding: 5px 10px;
+}
+
+#jcal-calendar-form label {
+    display: inline-block;
+    width: 100px;
+    /* height: 8px; */
+    background: rgba(255,255,255,.3);
+    border: 1px solid rgba(240,240,240,0.23);
+    border-radius: 5px 0 0 5px;
+    padding: 10px 0 10px 20px;
+    color: #fff;
+    font: 300 13px 'Open Sans', sans-serif;
+    position: relative;
+    /* top: 5px; */
+    left: 5px;
+}
+#jcal-calendar-form input[type='submit'], #jcal-calendar-form input[type='button'] {
+	height: 40px;
+	background: rgba(255,255,255,.15);
+	border:1px solid rgba(240,240,240,0.23);
+	border-radius: 5px;
+	padding: 5px 10px;
+	color:#fff;
+	font:300 14px/15px 'Open Sans', sans-serif;
+	margin: 5px 0 0 5px;
+	-webkit-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+#jcal-calendar-form input[type='submit']:hover, #jcal-calendar-form input[type='button']:hover {
+	cursor: pointer;
+	background: rgba(255,255,255,.30);
+}
+#jcal-calendar-form p {
+    color: #fff;
+    font: 300 15px/17px 'Open Sans', sans-serif;
+    padding: 0 0 0 5px;
+    margin: 8px 0;
+}
+#jcal {
+	display: block;
+	float: left;
+}
+#jcal-calendar-form .jcal-error{
+	border: 1px solid rgba(241, 116, 116, 0.83);
+    box-shadow: inset 0 0 25px rgba(230, 63, 63, 0.65);
+}
+
+#calendar {
+	height: 350px;
+	margin: 10px 0 10px 48px;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#jcal {
+	display: block;
+	width: 400px;
+	border:1px solid transparent;
+	background: rgba(255,255,255,.8);
+	box-shadow: 0 0 10px rgba(177,177,177,.6), 1px 1px 15px rgba(199,199,199,.3);
+}
+#jcal #jcal-current-date {
+	width: 200px;
+}
+#jcal-controll-block {
+	display: table;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background: rgba(231, 240, 244, 0.42);
+}
+
+.jcal-btn, .jcal-btn:visited,.jcal-btn:active {
+	margin: 0;
+	padding: 8px 20px;
+	background: transparent;
+	border: 1px solid rgba(65, 132, 146, 0.14);
+	border-radius: 2px;
+	text-decoration: none;
+	color:#383838;
+	-webkit-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.jcal-btn:hover {
+	cursor: pointer;
+	color: #fff;
+	background: rgba(101, 164, 177, 0.95);
+}
+
+#jcal-dates {
+	display:table;
+	width: 100%;
+	text-align: center;
+	border:0;
+	color:#383838;
+} 
+#jcal-dates td, #jcal-dates th {
+	display: table-cell;
+	width: 30px;
+	height: 30px;
+	padding: 3px 1px;
+	vertical-align: middle;
+	color:#383838;
+	border:0;
+}
+#jcal-dates td.jcal-active {
+	background: rgba(59, 176, 191, 0.9);
+	color:#fff;
+}
+
+#jcal-dates td.a {
+	background: #fff;
+	color:#fff;
+}
+
+#jcal-dates td.jcal-other-month{
+	color:#C5C5C5;
+}
+
+#jcal-dates .jcal-weekend {
+	background: rgba(207, 222, 228, 0.77);
+}
